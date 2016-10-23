@@ -1,0 +1,4 @@
+<*.{ml,mli}>: package(ctypes.stubs), package(unix-errno.unix)
+<*.{ml,mli}>: package(unix-type-representations), package(osx-membership.lwt)
+<osx_acl_stubs.c>: use_ctypes
+<*.{cma,cmxa}>: use_osx_acl_stubs
